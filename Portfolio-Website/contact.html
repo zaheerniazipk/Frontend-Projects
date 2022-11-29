@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <!-- Link Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar sidebar-go">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- main -->
+        <main class="main">
+
+            <!-- Ham-burger Menu -->
+            <div class="hamburger-menu">
+                <img src="./assets/media/hamburger.png" alt="Hamburger menu Icon" class="ham" width="18px">
+                <img src="./assets/media/close.png" alt="Close menu Icon" class="close" width="18px">
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h1>Contact me for work/general Enquiries</h1>
+                <form>
+                    <div>
+                        <label for="client-name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="client-name">
+                    </div>
+                    <div>
+                        <label for="client-email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="client-email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.
+                        </div>
+                    </div>
+                    <div>
+                        <label for="client-phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="client-phone">
+                    </div>
+                    <div>
+                        <label for="client-enquiry" class="form-label">Enquiry</label>
+                        <input type="text" class="form-control" id="client-enquiry">
+                    </div>
+                    <div id="form-check">
+                        <input type="checkbox" class="form-check-input" id="is-client">
+                        <label class="form-check-label" for="is-client">I want you to work on a
+                            project with me .</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                </form>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
