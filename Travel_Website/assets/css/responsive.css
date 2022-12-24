@@ -1,0 +1,175 @@
+/** ################# Media Queries ##############  */
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  /***********************/
+  /*      Home           */
+  /***********************/
+
+  /************** HEADER ************/
+  .navbar .nav-items,
+  .navbar .logo {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-content .main-heading {
+    display: none;
+  }
+
+  /**************  Showcase Section ************/
+  .row {
+    height: auto;
+    width: 100%;
+  }
+
+  .row .img-box,
+  .row .txt-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /************** Feature Section ************/
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+  }
+  .features .box2,
+  .features .box3 {
+    margin-top: 7rem;
+  }
+
+  .box-wrapper {
+    box-shadow: none;
+  }
+
+  /***********************/
+  /*      About Us       */
+  /***********************/
+  .cta-banner-left,
+  .cta-banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /***********************/
+  /*      Contact Us     */
+  /***********************/
+  .form-wrapper .company-address {
+    float: none;
+    width: 100%;
+    margin-bottom: 5rem;
+    height: auto;
+  }
+
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  /***********************/
+  /*      Home           */
+  /***********************/
+
+  /************** HEADER ************/
+  .navbar .nav-items,
+  .navbar .logo {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  /**************  Showcase Section ************/
+  .row {
+    height: auto;
+    width: 100%;
+  }
+
+  .row .img-box,
+  .row .txt-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /************** Feature Section ************/
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+  }
+  .features .box2,
+  .features .box3 {
+    margin-top: 7rem;
+  }
+
+  .box-wrapper {
+    box-shadow: none;
+  }
+
+  /***********************/
+  /*      About Us       */
+  /***********************/
+  .cta-banner-left,
+  .cta-banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /***********************/
+  /*      Contact Us     */
+  /***********************/
+  .form-wrapper .company-address {
+    float: none;
+    width: 100%;
+    margin-bottom: 5rem;
+    height: auto;
+  }
+
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  /* Showcase */
+  .row .txt-box h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+}
+
+/* Lanscape mode */
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
+}
